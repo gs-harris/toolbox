@@ -4,4 +4,8 @@ allprojects {
         	url "https://nexus3.heb.com/repository/maven-pospipe-hosted/"
     	}
     }
+
+    dependencies {
+      implementation 'com.squareup:square:32.0.0.20230816'
+    }
 }
